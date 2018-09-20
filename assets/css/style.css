@@ -153,6 +153,10 @@ h2,
     margin: 20px 15px 15px 20px;
 }
 
+#connect {
+    text-align: center;
+}
+
 /*footer*/
 
 footer {
@@ -242,4 +246,139 @@ input[type=submit] {
     padding: 10px 30px;
     cursor: pointer;
 
+}
+
+@media only screen and (max-width: 980px) {
+    .container {
+        padding: 0 20px;
+        max-width: 768px;
+    }
+
+    #main-container {
+        padding-top: 50px;
+        margin: 0 0 40px 0;
+        text-align: center;
+    }
+
+    .main-section {
+        max-width: 420px;
+    }
+
+    .work {
+        width: 100px;
+    }
+
+    .auth-image {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .sidebar {
+        margin-bottom: 40px;
+        width: 100%;
+        float: left;
+
+    }
+
+    .work {
+        width: 47%;
+        margin-bottom: 10px;
+
+    }
+
+    .work:nth-child(even) {
+        margin-right: 0;
+    }
+
+    .work:nth-child(odd) {
+        float: right;
+    }
+
+    .auth-image {
+        width: 50%;
+    }
+
+
+}
+
+@media only screen and (max-width: 714px) {
+
+    .main-section,
+    .sidebar {
+        max-width: 100%;
+    }
+
+    #main-container {
+        overflow: auto;
+        padding-top: 10px;
+
+    }
+
+    .sidebar {
+        margin-bottom: 40px;
+        position: left;
+    }
+
+    .work {
+        width: 47%;
+        margin-bottom: 10px;
+    }
+
+    .work:nth-child(even) {
+        margin-right: 0;
+    }
+
+    .work:nth-child(odd) {
+        float: right;
+    }
+
+    .auth-image {
+        width: 50%;
+    }
+
+    #projects {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    #masthead {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    header.container {
+        padding: 0;
+    }
+
+    #main-container {
+        padding-top: 0;
+    }
+
+    #logo,
+    .work,
+    .auth-image {
+        width: 100%;
+
+    }
+
+    nav {
+        text-align: center;
+        width: 100%;
+        margin: 15px 0;
+    }
+
+    nav a {
+        width: 0;
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    /* h3 {
+        text-align: center;
+    } */
+
+    /* .main-container {
+        text-align: center;
+    } */
 }
